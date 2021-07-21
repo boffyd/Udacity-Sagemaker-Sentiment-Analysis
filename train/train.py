@@ -89,9 +89,6 @@ def train(model, train_loader, epochs, optimizer, loss_fn, device):
             # calculate the loss and perform backprop
             loss = loss_fn(output, batch_y)
             loss.backward()
-            
-            # `clip_grad_norm` helps prevent the exploding gradient problem in RNNs / LSTMs.
-            nn.utils.clip_grad_norm_(model.parameters(), clip)
             optimizer.step()
             
             
