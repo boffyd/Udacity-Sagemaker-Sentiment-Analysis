@@ -27,7 +27,10 @@ Please see the [README](https://github.com/udacity/sagemaker-deployment/tree/mas
 
 Additionally a Lambda function will be used in the process architecture.
 
-![diagram](Web App Diagram.svg)
+
+![diagram](Images/LambdaFunction.png)
+
+Figure 2 - Lamda Function
 
 
 
