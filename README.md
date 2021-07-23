@@ -25,6 +25,10 @@ Please see the [README](https://github.com/udacity/sagemaker-deployment/tree/mas
 6. Deploy the trained model.
 7. Use the deployed model.
 
+Additionally a Lambda function will be used in the process architecture.
+
+![diagram](Web App Diagram.svg)
+
 
 
 
